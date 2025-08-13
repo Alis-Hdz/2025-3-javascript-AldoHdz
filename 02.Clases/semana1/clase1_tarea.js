@@ -35,6 +35,7 @@ async function main() {
 
   }
 
+  console.log("El resultado de la operación es: " + result )
 
 }
 
