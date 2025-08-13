@@ -8,12 +8,32 @@ async function main() {
 
   const PriNumero = Number (await ask("Dame un número"));
   const SegNumero = Number (await ask("Dame un segundo número"));
-  const Operador = await ask("Dame el operador que deseas usar")
+  const Operador = await ask("Dame el operador que deseas usar (+, -, *, /)")
 
-  console.log
+  let result;
+  switch(Operador) {
 
+    case '+':
+      result = PriNumero + SegNumero;
+    break;
 
+    case '-':
+      result = PriNumero - SegNumero;
+    break;
 
+    case '*':
+      result = PriNumero * SegNumero;
+    break;
+
+    case '/':
+      result = PriNumero / SegNumero;
+    break;
+
+    default:
+      console.log("Operador no válido");
+    return;
+
+  }
 
 
 }
