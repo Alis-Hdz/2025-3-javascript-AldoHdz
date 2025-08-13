@@ -6,6 +6,16 @@ async function main() {
   // 2.- Pedir el segundo número
   // 3.- Pedir operador
 
+  const PriNumero = Number (await ask("Dame un número"));
+  const SegNumero = Number (await ask("Dame un segundo número"));
+  const Operador = await ask("Dame el operador que deseas usar")
+
+  console.log
+
+
+
+
+
 }
 
 main();
