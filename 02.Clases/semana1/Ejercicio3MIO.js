@@ -2,7 +2,7 @@ const { ask } = require('../helpers/input.js');
 
 async function main() {
 
-    const age = Number (await ask("¿Cuantos años tienes"))
+    const age = Number (await ask("¿Cuantos años tienes?"))
     const genere = await ask("¿Cuál es tu género? (Masculino o Femenino)")
 
     if (age <=12 && genere ==='Femenino'){
