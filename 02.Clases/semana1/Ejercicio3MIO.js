@@ -13,13 +13,13 @@ async function main() {
         console.log('Eres una adolescente')
     }else if (age >12 && age <18 && genere =='Masculino'){
         console.log('Eres un adolescente')
-    }else if (age >=18 && age <60 && genere ==='Femenino'){
+    }else if (age >18 && age <60 && genere ==='Femenino'){
         console.log('Eres una adulta')
-    }else if (age >=18 && age <60 && genere ==='Masculino'){
+    }else if (age >18 && age <60 && genere ==='Masculino'){
         console.log('Eres un adulto')
-    }else if (age >=60 && genere ==='Femenino'){
+    }else if (age >60 && genere ==='Femenino'){
         console.log('Eres una T-Rex')
-    }else if (age >=60 && genere ==='Masculino'){
+    }else if (age >60 && genere ==='Masculino'){
         console.log('Eres un T-Rex')
     }else {
         console.log('No se encontraron resultados')
