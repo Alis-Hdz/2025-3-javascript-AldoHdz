@@ -14,7 +14,7 @@ function diffMonth(actualDate, birthDate){
     const diff = actualDate-birthDate
     const edadenDias = Math.floor(diff / (1000 * 60 * 60 * 24 * 30))
 
-    return edadenDias; 
+    return edadenMeses; 
 }
 
 function diffYears(actualDate, birthDate){
@@ -22,7 +22,7 @@ function diffYears(actualDate, birthDate){
     const diff = actualDate-birthDate
     const edadenDias = Math.floor(diff / (1000 * 60 * 60 * 24 * 30 * 12))
 
-    return edadenDias; 
+    return edadenAños; 
 }
 
 async function main() {
@@ -33,6 +33,8 @@ async function main() {
     const birthdateMonth = Number(await(ask("¿Cúal es el mes de tu fecha de nacimiento?")))
     const birthdateYear = Number(await(ask("¿Cúal es el año de tu fecha de nacimiento?")))
 
+
+    // const birthDate = await ask('¿Cuál es tu fecha de nacimiento? (formato:YYYY-MM-DD)')
     const birthDate = new Date (`${birthdateYear}-${birthdateMonth}-${birthdateDay}`)
 
 
