@@ -10,6 +10,10 @@ async function main() {
   const SegNumero = Number (await ask("Dame un segundo número"));
   const Operador = await ask("Dame el operador que deseas usar (+, -, *, /)")
 
+
+
+  //ES MAS SENCILLO USAR UN SWITCH: das las opciónes cuando preguntas por el operador y lo limitas a las opciones que desees, ya con cada respuesta que tu definas, realizas los "CASE" que sean necesarios. 
+  
   let result;
   switch(Operador) {
 
