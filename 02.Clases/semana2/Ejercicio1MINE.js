@@ -4,8 +4,6 @@ async function saludar (nombre){
     console.log (`Hola estimado(a): ${nombre}, espero que tengas un buen día ...`)
 }
 
-
-
 async function main() {
 
     const personas = [ "Aldo", "Isaac", "Adriana", "Ely", "Adriana Grandota"]
