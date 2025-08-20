@@ -20,7 +20,6 @@ async function main() {
 
         console.log("# Pares incrementando de 2 en 2 --- " + j)
         
-
     }
 
 }
