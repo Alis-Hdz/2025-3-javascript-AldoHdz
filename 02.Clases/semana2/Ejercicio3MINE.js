@@ -12,7 +12,7 @@ async function main() {
 
     while (opcion !== "3"){
 
-        opcion = await ask ("¿QUe opción deseas tomar? \n1.- Agregar una fruta. \n2.-Eliminar una fruta.\n3.-Salir\n ")
+        opcion = await ask ("¿Que opción deseas tomar? \n1.- Agregar una fruta. \n2.-Eliminar una fruta.\n3.-Salir\n ")
 
         if (opcion === "1"){
 
