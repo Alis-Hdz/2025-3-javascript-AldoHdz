@@ -8,7 +8,7 @@ async function main() {
         
         if (i % 2 === 0 ){
 
-            console.log("Ten los números pares --- " + i);
+            console.log("Ten los números pares con for --- " + i);
 
         }
 
@@ -20,6 +20,22 @@ async function main() {
 
         console.log("# Pares incrementando de 2 en 2 --- " + j)
         
+    }
+
+
+    console.log("-----------------------Otro método----------------------------")
+
+    let contador = 1;
+    while (contador<=100 ){
+
+        if (contador % 2 === 0 ){
+
+            console.log("Ten los números pares con while --- " + contador);
+            
+        }
+
+        contador++;
+
     }
 
 }
