@@ -1,7 +1,5 @@
 "use strict";
 
-
-
 function addTask() {
 
     const input = document.getElementById("taskInput");
