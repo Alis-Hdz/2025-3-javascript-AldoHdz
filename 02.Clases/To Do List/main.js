@@ -18,9 +18,7 @@ function addTask() {
 
             <button onClick = "deleteTask(this)"> Delete </button>
 
-        </div>
-
-        `;
+        </div>`;
 
         document.getElementById("taskList").appendChild(li);
         input.value = ``;
