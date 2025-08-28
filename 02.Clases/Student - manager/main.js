@@ -51,6 +51,7 @@ function displayStudents() {
   for (let i = 0; i < students.length; i++) {
     const li = document.createElement("li");
     li.innerHTML = `<p>${students[i].name} - ${students[i].grade} - ${students[i].status}</p>`;
+    li.classList.add(students[i].grade >=70 ? "passed" : "failed"); // agregamos una clase para dar estilos con un operador terniario
 
     list.appendChild(li);
   }
